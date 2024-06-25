@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: db-service
+  description: Serviço de banco de dados.
+  tags:
+    - service
+    - backend
+spec:
+  type: service
+  owner: team-database
+  lifecycle: production
+  links:
+    - url: https://github.com/my-org/db-service
+      title: Source Code
+    - url: https://docs.my-org.com/db-service
+      title: Documentation
+    - url: https://monitoring.my-org.com/db-service
+      title: Monitoring Dashboard
+    - url: https://ci.my-org.com/job/db-service
+      title: CI Pipeline
