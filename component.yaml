@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: auth-service
   description: Serviço de autenticação de usuários.
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
   tags:
     - service
     - backend
