@@ -11,7 +11,7 @@ spec:
   owner: team-auth
   lifecycle: production
   dependsOn:
-    - component: db-service
+    - component:default/db-service
   links:
     - url: https://github.com/my-org/auth-service
       title: Source Code
