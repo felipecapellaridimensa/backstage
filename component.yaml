@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: auth-service
+  description: Serviço de autenticação de usuários.
+  tags:
+    - service
+    - backend
+spec:
+  type: service
+  owner: team-auth
+  lifecycle: production
+  links:
+    - url: https://github.com/my-org/auth-service
+      title: Source Code
+    - url: https://docs.my-org.com/auth-service
+      title: Documentation
+    - url: https://monitoring.my-org.com/auth-service
+      title: Monitoring Dashboard
+    - url: https://ci.my-org.com/job/auth-service
+      title: CI Pipeline
