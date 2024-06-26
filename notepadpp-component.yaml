@@ -10,18 +10,10 @@ metadata:
     - open-source
     - windows
   links:
-    - url: https://notepad-plus-plus.org/
-      title: Official Website
-    - url: https://github.com/notepad-plus-plus/notepad-plus-plus
-      title: Source Code
-    - url: https://notepad-plus-plus.org/downloads/
-      title: Download Notepad++
-    - url: https://notepad-plus-plus.org/features/
-      title: Features
-    - url: https://notepad-plus-plus.org/news/
-      title: News
-    - url: https://community.notepad-plus-plus.org/
-      title: Documentation
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: application
   owner: guests
