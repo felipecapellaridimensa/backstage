@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: notepad-plus-plus
+  description: Notepad++ é um editor de texto e código-fonte gratuito e de código aberto para Windows.
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/notepad-plus-plus/notepad-plus-plus/wiki
+  tags:
+    - editor
+    - open-source
+    - windows
+spec:
+  type: application
+  owner: team-dev-tools
+  lifecycle: production
+  links:
+    - url: https://notepad-plus-plus.org/
+      title: Official Website
+    - url: https://github.com/notepad-plus-plus/notepad-plus-plus
+      title: Source Code
+    - url: https://notepad-plus-plus.org/downloads/
+      title: Download Notepad++
+    - url: https://notepad-plus-plus.org/features/
+      title: Features
+    - url: https://notepad-plus-plus.org/news/
+      title: News
+    - url: https://community.notepad-plus-plus.org/
+      title: Community Forum
+    - url: https://github.com/notepad-plus-plus/notepad-plus-plus/wiki
+      title: Documentation
+    - url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases
+      title: Releases
+  providesApis:
+    - notepad-plus-plus-api
+  consumesApis:
+    - markdown-api
+  dependsOn:
+    - component:default/markdown-parser
+    - resource:default/windows-os
