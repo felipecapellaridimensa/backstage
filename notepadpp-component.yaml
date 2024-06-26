@@ -13,6 +13,9 @@ metadata:
     - url: https://notepad-plus-plus.org/
       title: Official Website
       icon: techdocs
+	- url: https://notepad-plus-plus.org/downloads/
+      title: Download Notepad++
+      icon: techdocs
 spec:
   type: application
   owner: guests
