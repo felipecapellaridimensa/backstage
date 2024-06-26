@@ -25,11 +25,7 @@ spec:
     - url: https://notepad-plus-plus.org/news/
       title: News
     - url: https://community.notepad-plus-plus.org/
-      title: Community Forum
-    - url: https://github.com/notepad-plus-plus/notepad-plus-plus/wiki
       title: Documentation
-    - url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases
-      title: Releases
   providesApis:
     - notepad-plus-plus-api
   consumesApis:
