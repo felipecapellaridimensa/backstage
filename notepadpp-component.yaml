@@ -9,10 +9,6 @@ metadata:
     - editor
     - open-source
     - windows
-spec:
-  type: application
-  owner: guest
-  lifecycle: production
   links:
     - url: https://notepad-plus-plus.org/
       title: Official Website
@@ -26,6 +22,10 @@ spec:
       title: News
     - url: https://community.notepad-plus-plus.org/
       title: Documentation
+spec:
+  type: application
+  owner: guest
+  lifecycle: production
   providesApis:
     - notepad-plus-plus-api
   consumesApis:
