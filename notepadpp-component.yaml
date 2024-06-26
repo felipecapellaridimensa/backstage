@@ -11,7 +11,7 @@ metadata:
     - windows
 spec:
   type: application
-  owner: team-dev-tools
+  owner: guest
   lifecycle: production
   links:
     - url: https://notepad-plus-plus.org/
