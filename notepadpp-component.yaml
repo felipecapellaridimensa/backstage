@@ -10,10 +10,9 @@ metadata:
     - open-source
     - windows
   links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
-      type: admin-dashboard
+    - url: https://notepad-plus-plus.org/
+      title: Official Website
+      icon: techdocs
 spec:
   type: application
   owner: guests
