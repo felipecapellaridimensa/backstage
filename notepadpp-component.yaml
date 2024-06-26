@@ -24,7 +24,7 @@ metadata:
       title: Documentation
 spec:
   type: application
-  owner: guest
+  owner: guests
   lifecycle: production
   providesApis:
     - notepad-plus-plus-api
