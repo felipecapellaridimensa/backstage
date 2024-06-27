@@ -9,6 +9,7 @@ metadata:
     - editor
     - open-source
     - windows
+    - linux
   links:
     - url: https://notepad-plus-plus.org/
       title: Official Website
