@@ -4,7 +4,7 @@ metadata:
   name: notepad-plus-plus
   description: Notepad++ é um editor de texto e código-fonte gratuito e de código aberto para Windows.
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/gustavoguanabara/projeto-site.git
+    backstage.io/techdocs-ref: url:https://github.com/notepad-plus-plus/notepad-plus-plus.git
   tags:
     - editor
     - open-source
