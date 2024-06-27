@@ -10,6 +10,8 @@ metadata:
     - comunicacao
     - colaboracao
     - web
+    - windows
+    - linux
   links:
     - url: https://slack.com/
       title: Official Website
