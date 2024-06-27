@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: slack
+  description: Slack é uma plataforma de comunicação e colaboração em equipe baseada na web.
+  annotations:
+    github.com/project-slug: slackhq/slack
+    backstage.io/techdocs-ref: url:https://slack.com/intl/en-in/help/articles/218080037-Getting-started-with-Slack
+  tags:
+    - comunicação
+    - colaboração
+    - web
+  links:
+    - url: https://slack.com/
+      title: Official Website
+      icon: techdocs
+    - url: https://slack.com/intl/en-in/help/articles/218080037-Getting-started-with-Slack
+      title: Slack Documentation
+      icon: web
+    - url: https://slack.com/downloads
+      title: Download Slack
+      icon: download
+
+spec:
+  type: application
+  owner: team-communication
+  lifecycle: production
+  providesApis:
+    - slack-api
+  consumesApis:
+    - notifications-api
+  dependsOn:
+    - component:default/notifications-service
+    - resource:default/cloud-infrastructure
