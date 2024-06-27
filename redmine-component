@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redmine
+  description: |
+    Redmine é um aplicativo web flexível de gerenciamento de projetos.
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/redmine/redmine
+    github.com/project-slug: redmine/redmine
+    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/redmine/redmine/master/README.md
+    links:
+      - title: Redmine Official Website
+        url: https://www.redmine.org/
+      - title: Redmine GitHub Repository
+        url: https://github.com/redmine/redmine
+      - title: Redmine Downloads
+        url: https://www.redmine.org/projects/redmine/wiki/Download
+spec:
+  type: service
+  owner: team-xyz
+  lifecycle: production
+  providesApis:
+    - redmine-api
+  consumesApis:
+    - some-other-api
+  dependsOn:
+    - type: database
+      target: redmine-db
+  system: project-management
