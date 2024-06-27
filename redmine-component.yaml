@@ -10,6 +10,8 @@ metadata:
     - gerenciamento-de-projetos
     - open-source
     - web
+    - windows
+    - linux
   links:
     - url: https://www.redmine.org/
       title: Official Website
