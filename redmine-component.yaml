@@ -17,6 +17,9 @@ metadata:
     - url: https://www.redmine.org/projects/redmine/wiki/Download
       title: Download Redmine
       icon: web
+  system:
+    - linux
+    - windows
 
 spec:
   type: application
