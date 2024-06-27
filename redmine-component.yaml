@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: redmine
-  description: |
-    Redmine é um aplicativo web flexível de gerenciamento de projetos.
+  description: Redmine é um aplicativo web flexível de gerenciamento de projetos.
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/redmine/redmine
     github.com/project-slug: redmine/redmine
@@ -15,6 +14,17 @@ metadata:
         url: https://github.com/redmine/redmine
       - title: Redmine Downloads
         url: https://www.redmine.org/projects/redmine/wiki/Download
+  tags:
+    - editor
+    - open-source
+    - windows
+  links:
+    - url: https://notepad-plus-plus.org/
+      title: Official Website
+      icon: techdocs
+    - url: https://notepad-plus-plus.org/downloads/
+      title: Download Notepad
+      icon: web
 spec:
   type: service
   owner: team-xyz
