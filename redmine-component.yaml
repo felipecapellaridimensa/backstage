@@ -4,7 +4,8 @@ metadata:
   name: redmine
   description: Redmine é um aplicativo web flexível de gerenciamento de projetos.
   annotations:
-    backstage.io/techdocs-ref: url:url:https://github.com/redmine/redmine.git
+    github.com/project-slug: redmine/redmine
+    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/redmine/redmine/master/README.md
   tags:
     - gerenciamento-de-projetos
     - open-source
