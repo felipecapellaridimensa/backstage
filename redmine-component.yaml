@@ -1,29 +1,30 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: notepad-plus-plus
-  description: Notepad++ é um editor de texto e código-fonte gratuito e de código aberto para Windows.
+  name: redmine
+  description: Redmine é um aplicativo web flexível de gerenciamento de projetos.
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/notepad-plus-plus/notepad-plus-plus.git
+    backstage.io/techdocs-ref: url:url:https://github.com/redmine/redmine.git
   tags:
-    - editor
+    - gerenciamento-de-projetos
     - open-source
-    - windows
+    - web
   links:
-    - url: https://notepad-plus-plus.org/
+    - url: https://www.redmine.org/
       title: Official Website
       icon: techdocs
-    - url: https://notepad-plus-plus.org/downloads/
-      title: Download Notepad
+    - url: https://www.redmine.org/projects/redmine/wiki/Download
+      title: Download Redmine
       icon: web
+
 spec:
   type: application
   owner: guests
   lifecycle: production
   providesApis:
-    - notepad-plus-plus-api
+    - redmine-api
   consumesApis:
     - markdown-api
   dependsOn:
     - component:default/markdown-parser
-    - resource:default/windows-os
+    - resource:default/linux-os
