@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: slack
-  description: Slack é uma plataforma de comunicação e colaboração em equipe baseada na web.
+  description: Slack é uma plataforma de comunicacao e colaboração em equipe baseada na web.
   annotations:
     github.com/project-slug: slackhq/slack
     backstage.io/techdocs-ref: url:https://slack.com/intl/en-in/help/articles/218080037-Getting-started-with-Slack
