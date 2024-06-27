@@ -7,8 +7,8 @@ metadata:
     github.com/project-slug: slackhq/slack
     backstage.io/techdocs-ref: url:https://slack.com/intl/en-in/help/articles/218080037-Getting-started-with-Slack
   tags:
-    - comunicação
-    - colaboração
+    - comunicacao
+    - colaboracao
     - web
   links:
     - url: https://slack.com/
